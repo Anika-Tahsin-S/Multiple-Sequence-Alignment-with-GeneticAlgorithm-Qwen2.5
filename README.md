@@ -1,4 +1,4 @@
-# Sequence-Alignment-with-GeneticAlgorithm-Qwen2.5
+# Multiple Sequence Alignment (MSA) with GeneticAlgorithm + Qwen2.5
 
 Lightweight GA-based multiple-sequence alignment (MSA) with GPU-accelerated fitness (PyTorch) on Kaggle’s “Sequence Alignment (Bioinformatics) Dataset.” Uses affine gaps with PAM250, tournament selection, residue-count–preserving crossover, and improving mutations. Computes entropy/gap/identity metrics, draws heatmaps & dendrograms, writes CLUSTAL/FASTA. A local LLM (Qwen2.5-1.5B-Instruct via llama-cpp) produces a JSON report (conserved blocks, gap clusters, closest/divergent pairs). No API keys needed.
 
