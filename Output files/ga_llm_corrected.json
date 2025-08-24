@@ -1,0 +1,35 @@
+{
+  "conserved_regions": [
+    {
+      "range": "1-149",
+      "note": "The alignment is complete, indicating no conserved regions."
+    }
+  ],
+  "gaps": [
+    {
+      "range": "2-30",
+      "sequences": ["human", "mouse"],
+      "pattern": "one"
+    },
+    {
+      "range": "41-65",
+      "sequences": ["human", "mouse"],
+      "pattern": "many"
+    }
+  ],
+  "similarity": {
+    "closest": [
+      {
+        "pair": "human-kiss1-mouse-kiss1",
+        "pid": 64.3
+      }
+    ],
+    "most_divergent": [
+      {
+        "pair": "opossum-kiss1-zebrafish-kiss2",
+        "pid": 16.0
+      }
+    ]
+  },
+  "summary": "The alignment is complete, with no conserved regions. There are gaps at positions 2-30 and 41-65 due to differences in sequences. The closest pair of proteins is human-kiss1-mouse-kiss1 with a similarity of 64.3%, while the most divergent pair is opossum-kiss1-zebrafish-kiss2 with a divergence of 16.0%."
+}
